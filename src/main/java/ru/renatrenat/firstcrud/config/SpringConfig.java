@@ -33,7 +33,7 @@ public class SpringConfig {
     public SpringResourceTemplateResolver templateResolver(){
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
-        templateResolver.setPrefix("/Users/renat/Desktop/java/firstcrud/src/main/webapp/WEB-INF/views");
+        templateResolver.setPrefix("/Users/renat/Desktop/java/firstcrud/src/main/resources/views/");
         templateResolver.setSuffix(".html");
         templateResolver.setCharacterEncoding("UTF-8");
         return templateResolver;
@@ -62,7 +62,6 @@ public class SpringConfig {
 
         dataSource.setDriverClassName("org.postgresql.Driver");
         dataSource.setUrl("jdbc:postgresql://127.0.0.1:5432/firstcrud");
-        //dataSource.setUrl("jdbc:postgresql://127.0.0.1:53010/?key=50b8b713-8821-43a9-a2a4-f7b565298b30/firstcrud");
         dataSource.setUsername("postgres");
         dataSource.setPassword("Larisa2611");
 
