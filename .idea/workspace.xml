@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0816b79a-dc5d-43e3-aa3b-d82152c3b42a" name="Changes" comment="Создан PersonDao для работы с базой данных. Создан контроллер для маппинга юрл запросов.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/books/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/books/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/books/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/books/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/people/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/people/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/people/show.html" afterDir="false" />
+    <list default="true" id="0816b79a-dc5d-43e3-aa3b-d82152c3b42a" name="Changes" comment="Перенес вью в ресурсы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/controllers/PeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/dao/PersonDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/books/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/books/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/books/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/books/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/people/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/people/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/people/show.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +67,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/views/people" />
       <recent name="$PROJECT_DIR$/src/main/resources/views" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people" />
     </key>
@@ -86,7 +83,7 @@
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
       <option name="contextPath" value="/firstcrud" />
-      <option name="docBase" value="$PROJECT_DIR$" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="envOptions">
         <map />
       </option>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676664576316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Перенес вью в ресурсы">
+      <created>1676842478745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676842478745</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Инициализация проекта, создание всех необходимых файлов. Созданы модели книг и человека." />
     <MESSAGE value="Создан PersonDao для работы с базой данных. Создан контроллер для маппинга юрл запросов." />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан PersonDao для работы с базой данных. Создан контроллер для маппинга юрл запросов." />
+    <MESSAGE value="Перенес вью в ресурсы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенес вью в ресурсы" />
   </component>
 </project>

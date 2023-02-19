@@ -21,10 +21,10 @@ public class PeopleController {
         this.personDao = personDao;
     }
 
-    @GetMapping("/all")
+    @GetMapping
     public String index(Model model){
         model.addAttribute("people", personDao.index());
-        return "index";
+        return "people/index";
     }
 
     @GetMapping("/{id}")
