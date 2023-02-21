@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0816b79a-dc5d-43e3-aa3b-d82152c3b42a" name="Changes" comment="Починил маппинг, вернул вью в папку вьюс">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0816b79a-dc5d-43e3-aa3b-d82152c3b42a" name="Changes" comment="Поправил формы, вынес конфиг бд в отдельный файл">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/dao/PersonDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676844710911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Поправил формы, вынес конфиг бд в отдельный файл">
+      <created>1677002170277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677002170277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +162,7 @@
     <MESSAGE value="Создан PersonDao для работы с базой данных. Создан контроллер для маппинга юрл запросов." />
     <MESSAGE value="Перенес вью в ресурсы" />
     <MESSAGE value="Починил маппинг, вернул вью в папку вьюс" />
-    <option name="LAST_COMMIT_MESSAGE" value="Починил маппинг, вернул вью в папку вьюс" />
+    <MESSAGE value="Поправил формы, вынес конфиг бд в отдельный файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил формы, вынес конфиг бд в отдельный файл" />
   </component>
 </project>

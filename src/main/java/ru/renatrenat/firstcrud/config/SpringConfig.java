@@ -58,19 +58,16 @@ public class SpringConfig implements WebMvcConfigurer {
         ThymeleafViewResolver resolver = new ThymeleafViewResolver();
         resolver.setTemplateEngine(templateEngine());
         resolver.setCharacterEncoding("UTF-8");
-
         registry.viewResolver(resolver);
     }
 
     @Bean
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-
         dataSource.setDriverClassName(Objects.requireNonNull(environment.getProperty("driver")));
         dataSource.setUrl(environment.getProperty("url"));
         dataSource.setUsername(environment.getProperty("username"));
         dataSource.setPassword(environment.getProperty("password"));
-
         return dataSource;
     }
 
