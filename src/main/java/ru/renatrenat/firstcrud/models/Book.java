@@ -30,7 +30,6 @@ public class Book {
         this.author = author;
         this.name = name;
         this.year = year;
-        this.owner_id = owner_id;
     }
 
     public int getId() {
@@ -65,11 +64,4 @@ public class Book {
         this.year = year;
     }
 
-    public int getOwner_id() {
-        return owner_id;
-    }
-
-    public void setOwner_id(int owner_id) {
-        this.owner_id = owner_id;
-    }
 }

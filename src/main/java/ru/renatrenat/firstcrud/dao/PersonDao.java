@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
+import ru.renatrenat.firstcrud.models.Book;
 import ru.renatrenat.firstcrud.models.Person;
 
 import java.util.List;
@@ -40,4 +41,9 @@ public class PersonDao {
     }
 
 
+    // Здесь Join не нужен. И так уже получили человека с помощью отдельного метода
+    public List<Book> getBooksByPersonId(int id) {
+        return jdbcTemplate.query("SELECT * FROM \"Book\" WHERE owner_id = ?", new Object[]{id},
+                new BeanPropertyRowMapper<>(Book.class));
+    }
 }
