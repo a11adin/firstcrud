@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>First crud</title>
+</head>
+<body>
+<form th:method="GET" th:action="@{/books}">
+    <input type="submit" value="Книги"/>
+</form>
+<form th:method="GET" th:action="@{/people}">
+    <input type="submit" value="Люди"/>
+</form>
+</body>
+</html>

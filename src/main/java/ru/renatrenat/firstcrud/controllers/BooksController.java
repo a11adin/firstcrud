@@ -1,6 +1,5 @@
 package ru.renatrenat.firstcrud.controllers;
 
-import jdk.internal.icu.text.NormalizerBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,7 +22,8 @@ public class BooksController {
     }
 
     @GetMapping
-    public String index(@ModelAttribute("book") Book book){
+    public String index(Model model){
+        model.addAttribute("books", bookDao.index());
         return "books/index";
     }
 

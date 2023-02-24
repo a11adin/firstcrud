@@ -22,7 +22,8 @@ public class PeopleController {
     }
 
     @GetMapping
-    public String index(@ModelAttribute("person") Person person){
+    public String index(Model model){
+        model.addAttribute("people", personDao.index());
         return "people/index";
     }
 

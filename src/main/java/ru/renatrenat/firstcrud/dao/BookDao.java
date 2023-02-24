@@ -3,10 +3,12 @@ package ru.renatrenat.firstcrud.dao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
 import ru.renatrenat.firstcrud.models.Book;
 
 import java.util.List;
 
+@Component
 public class BookDao {
     private final JdbcTemplate jdbcTemplate;
 
@@ -27,7 +29,7 @@ public class BookDao {
     }
 
     public void save(Book book){
-        jdbcTemplate.update("INSERT INTO \"Book\"(author, name, year) VALUES(?,?,?)",book.getAuthor(), book.getName(), book.getYear());
+        jdbcTemplate.update("INSERT INTO \"Book\"(author, name, year, owner_id) VALUES(?,?,?,0)",book.getAuthor(), book.getName(), book.getYear());
     }
 
     public void update(int id, Book updBook){
