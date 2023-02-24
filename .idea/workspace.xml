@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0816b79a-dc5d-43e3-aa3b-d82152c3b42a" name="Changes" comment="Поправил формы, вынес конфиг бд в отдельный файл">
+    <list default="true" id="0816b79a-dc5d-43e3-aa3b-d82152c3b42a" name="Changes" comment="Minor commit">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677002170277</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Minor commit">
+      <created>1677003287030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677003287030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +172,7 @@
     <MESSAGE value="Перенес вью в ресурсы" />
     <MESSAGE value="Починил маппинг, вернул вью в папку вьюс" />
     <MESSAGE value="Поправил формы, вынес конфиг бд в отдельный файл" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил формы, вынес конфиг бд в отдельный файл" />
+    <MESSAGE value="Minor commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor commit" />
   </component>
 </project>
