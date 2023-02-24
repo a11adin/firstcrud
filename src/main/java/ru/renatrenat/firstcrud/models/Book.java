@@ -8,16 +8,16 @@ public class Book {
 
     private int id;
 
-    @NotEmpty(message = "Автор не может быть пустым")
-    @Max(value = 100, message = "Имя автора должно быть меньше 100 знаков")
+    //@NotEmpty(message = "Автор не может быть пустым")
+    //@Max(value = 100, message = "Имя автора должно быть меньше 100 знаков")
     private String author;
 
-    @NotEmpty(message = "Название не может быть пустым")
-    @Max(value = 100, message = "Название книги должно быть меньше 100 знаков")
+    //@NotEmpty(message = "Название не может быть пустым")
+    //@Max(value = 100, message = "Название книги должно быть меньше 100 знаков")
     private String name;
 
-    @NotEmpty(message = "Год не может быть пустым")
-    @Size(min = 4, max = 4, message = "Год должен быть из 4 цифр")
+    //@NotEmpty(message = "Год не может быть пустым")
+    //@Size(min = 4, max = 4, message = "Год должен быть из 4 цифр")
     private int year;
 
     private int owner_id;

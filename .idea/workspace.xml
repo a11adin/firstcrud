@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0816b79a-dc5d-43e3-aa3b-d82152c3b42a" name="Changes" comment="Поправил ссылку в index, чтобы верно выводила на страницу new">
+    <list default="true" id="0816b79a-dc5d-43e3-aa3b-d82152c3b42a" name="Changes" comment="Добавлены кнопки &quot;Вернуться&quot; при просмотре и редактировании записей.&#10;Гиперссылка &quot;Создать человека&quot; на странице /people переделана в кнопку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/renatrenat/firstcrud/models/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677259982881</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавлены кнопки &quot;Вернуться&quot; при просмотре и редактировании записей.&#10;Гиперссылка &quot;Создать человека&quot; на странице /people переделана в кнопку">
+      <created>1677261113321</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677261113321</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +188,7 @@
     <MESSAGE value="Поправил формы, вынес конфиг бд в отдельный файл" />
     <MESSAGE value="Minor commit" />
     <MESSAGE value="Поправил ссылку в index, чтобы верно выводила на страницу new" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил ссылку в index, чтобы верно выводила на страницу new" />
+    <MESSAGE value="Добавлены кнопки &quot;Вернуться&quot; при просмотре и редактировании записей.&#10;Гиперссылка &quot;Создать человека&quot; на странице /people переделана в кнопку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены кнопки &quot;Вернуться&quot; при просмотре и редактировании записей.&#10;Гиперссылка &quot;Создать человека&quot; на странице /people переделана в кнопку" />
   </component>
 </project>
