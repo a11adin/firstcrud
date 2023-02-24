@@ -5,14 +5,21 @@
     <title>Show</title>
 </head>
 <body>
-<p th:text="${person.getName()}">VALUE</p>
-<p th:text="${'Birthdate: ' + person.getBirthdate()}">VALUE</p>
-<p th:text="${person.getId()}">VALUE</p>
+<p th:text="${'ФИО: ' + person.getName()}" id = "name">VALUE</p>
+<p th:text="${'Дата рождения: ' + person.getBirthdate()}" id = "birthdate">VALUE</p>
+<p th:text="${'Уникальный номер: ' + person.getId()}" id = "id">VALUE</p>
 
-<a th:href="@{/people/{id}/edit(id=${person.getId()})}">Edit</a>
+<form th:method="GET" th:action="@{/people/{id}/edit(id=${person.getId()})}">
+    <input type="submit" value="Редактировать"/>
+</form>
 
 <form th:method="DELETE" th:action="@{/people/{id}(id=${person.getId()})}">
-    <input type="submit" value="Delete"/>
+    <input type="submit" value="Удалить"/>
 </form>
+
+<form th:method="GET" th:action="@{/people}">
+    <input type="submit" value="Вернуться"/>
+</form>
+
 </body>
 </html>
